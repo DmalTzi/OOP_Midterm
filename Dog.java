@@ -3,6 +3,8 @@ public class Dog {
     int age;
     String quote;
 
+    Dog() {}
+
     Dog(String name, int age) {
         this.name = name;
         this.age = age;
@@ -62,5 +64,8 @@ public class Dog {
         b.sayQuote();
         b.setAge(2);
         System.out.println(b);
+
+        Dog c = new Dog();
+        System.out.println(c);
     }
 }

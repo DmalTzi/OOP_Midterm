@@ -2,6 +2,7 @@ public class Dog {
     String name;
     int age;
     String quote;
+    String ageName;
 
     Dog() {}
 
@@ -28,6 +29,10 @@ public class Dog {
         return quote;
     }
 
+    public String getAgeName() {
+        return ageName;
+    }
+
     void setAge(int age) {
         this.age = age;
     }
@@ -38,6 +43,10 @@ public class Dog {
 
     void setQuote(String quote) {
         this.quote = quote;
+    }
+
+    public void setAgeName(String ageName) {
+        this.ageName = ageName;
     }
 
     void sayQuote() {

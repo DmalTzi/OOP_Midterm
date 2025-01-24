@@ -12,5 +12,8 @@ public class Dog {
         b.sayQuote();
         b.setAge(2);
         System.out.println(b);
+
+        Dog c = new Dog();
+        System.out.println(c);
     }
 }

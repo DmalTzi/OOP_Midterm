@@ -21,17 +21,22 @@ public class Car {
     }
 
 
-    Car() {
+    Car(String brand, int year) {
         engine = new Engine();
+        this.brand = brand;
+        this.year = year;
     }
 
     public void showInfo() {
+        System.out.println("Brand "+ brand);
+        System.out.println("year "+ year);
         System.out.println("Fuel Level " + engine.fuel);
         if (engine.start) {
             System.out.println("Engine is on");
         }else {
             System.out.println("Engine is off");
         }
+        System.out.println();
     }
 
     public void start() {

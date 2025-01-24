@@ -7,7 +7,7 @@ public class Main {
         System.out.println(a);
         a.run();
         a.giveup();
-        System.err.println("================");
+        System.out.println("================");
 
         Soldier b = new Soldier(9);
         System.out.println(b);
